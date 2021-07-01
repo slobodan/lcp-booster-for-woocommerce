@@ -4,7 +4,7 @@ Tags: core web vitals, page experience, largest contentful paint, lcp, woocommer
 Requires at least: 5.5
 Tested up to: 5.7
 Requires PHP: 7.0
-Stable tag: 1.00
+Stable tag: 1.0.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
