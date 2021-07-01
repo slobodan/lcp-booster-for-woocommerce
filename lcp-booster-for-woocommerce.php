@@ -7,7 +7,7 @@
  * Version:           1.0.0
  * Requires at least: 5.5
  * Requires PHP:      7.0
- * Author:            Slobodan Manic, No Hacks Marketing
+ * Author:            Slobodan Manic
  * Author URI:        https://www.nohacksmarketing.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -60,10 +60,9 @@ function lcp_wc_preload_product_image() {
 			$image_srcset = wp_calculate_image_srcset( $size_array, $image[0], $image_meta, $post_thumbnail_id );
 			$image_sizes  = wp_calculate_image_sizes( $size_array, $image[0], $image_meta, $post_thumbnail_id );
 			?>
-				<link rel="preload" as="image" href="<?php echo $image[0]; ?>" imagesrcset="<?php echo $image_srcset; ?>" imagesizes="<?php echo $image_sizes; ?>">
+				<link rel="preload" as="image" href="<?php echo esc_attr( $image[0] ); ?>" imagesrcset="<?php echo esc_attr( $image_srcset ); ?>" imagesizes="<?php echo esc_attr( $image_sizes ); ?>">
 			<?php
 		}
 	}
 }
 add_action( 'wp_head', 'lcp_wc_preload_product_image', 0 );
-
