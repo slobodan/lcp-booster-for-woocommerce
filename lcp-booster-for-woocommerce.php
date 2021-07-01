@@ -7,7 +7,7 @@
  * Version:           1.0.0
  * Requires at least: 5.5
  * Requires PHP:      7.0
- * Author:            Slobodan Manic
+ * Author:            Slobodan Manic, No Hacks Marketing
  * Author URI:        https://www.nohacksmarketing.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
