@@ -66,3 +66,4 @@ function lcp_wc_preload_product_image() {
 	}
 }
 add_action( 'wp_head', 'lcp_wc_preload_product_image', 0 );
+
