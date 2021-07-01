@@ -9,7 +9,7 @@
  * Requires PHP:      7.0
  * Author:            Slobodan Manic
  * Author URI:        https://www.nohacksmarketing.com/
- * License:           GPL v3
+ * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
 
