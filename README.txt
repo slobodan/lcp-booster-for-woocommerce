@@ -12,7 +12,7 @@ Preloads main product image in the WooCommerce product page.
 
 == Description ==
 
-LCP Booster for WooCommerce helps lower LCP (Largest Contentful Paint) time in your WooCommerce product pages. Responsive image preload for browsers that support it. This is a very simple plugin, with no options (for now), all it does is preload the main product image very early in the document, so it is already loaded when it needs to be displayed. This helps cut down LCP.
+LCP Booster for WooCommerce helps lower LCP (Largest Contentful Paint) time in your WooCommerce product pages. Responsive image preload for browsers that support it. This is a very simple plugin, with no options (for now), all it does is preload the main product image very early in the document, so it is already loaded when it needs to be displayed. This helps cut down LCP. This plugin requires WooCommerce to be installed and active.
 
 == Installation ==
 
